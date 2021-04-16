@@ -93,7 +93,8 @@ int main()
 		cadena += 'x'; // la cadena se llena de x
 	}
 	int counter = 0; //las vidas
-	char letra;  
+	char letra;
+	string letras;
 	while (true)
 	{
 		std::cout << "\n Ahorcado: \n";
@@ -101,9 +102,9 @@ int main()
 		if (cadena.find('x') == -1) //si ya no encuentra las x ganas
 		{
 			system("cls");
-			std::cout << "\n Ejercicio 18.12 \n" << cadena << " era la palabra\nHa ganado, desea intentar denuevo? (y/n): ";
-			std::cin >> letra;
-			if (letra == 'y')
+			std::cout << "\n Ejercicio 18.12 \n" << cadena << " era la palabra\nHa ganado, desea intentar denuevo? (si/no): ";
+			std::cin >> letras;
+			if (letras == "si")
 			{
 				counter = 0;
 				cadena1 = chooseword();
@@ -114,7 +115,7 @@ int main()
 				}
 				continue;
 			}
-			else if (letra == 'n')
+			else if (letras == "no")
 			{
 				break;
 			}
@@ -154,9 +155,9 @@ int main()
 		if (counter == 8) //aqui pierde el jugador
 		{
 			system("cls");
-			std::cout << "\n Ejercicio 18.12 \n\n" << "\nHa perdido, desea intentar denuevo? (y/n): ";
-			std::cin >> letra;
-			if (letra == 'y')
+			std::cout << "\n Ejercicio 18.12 \n\n" << "\nHa perdido, desea intentar denuevo? (si/no): ";
+			std::cin >> letras;
+			if (letras == "si")
 			{
 				counter = 0;
 				cadena1 = chooseword();
@@ -167,7 +168,7 @@ int main()
 				}
 				continue;
 			}
-			else if (letra == 'n')
+			else if (letras == "no")
 			{
 				break;
 			}
@@ -271,4 +272,3 @@ int main()
 	}
 	std::cout << "\n\n";
 }
-
