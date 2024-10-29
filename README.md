@@ -34,7 +34,7 @@ The final project implements a **complete RSA encryption system** with the follo
 To run each assignment or the final RSA project:
 1. **Compile** the `.cpp` file (or `main.cpp` for the RSA project) with a C++ compiler, such as `g++`.
    ```bash
-   g++ -o rsa main.cpp RSAFunctions/RSA.cpp RSAFunctions/Math.cpp
+   g++ -o rsa main.cpp libraries/RSA.cpp libraries/functions.cpp
    ```
 2. **Execute** the compiled program:
    ```bash
