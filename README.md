@@ -40,10 +40,3 @@ To run each assignment or the final RSA project:
    ```bash
    ./rsa
    ```
-
-### Future Improvements
-- Expanding the RSA implementation to include optimizations for larger prime numbers.
-- Enhancing the interface to handle user input and interactive encryption/decryption.
-  
-### Contact Information
-For any questions or collaboration interests, feel free to reach out via email or LinkedIn!
