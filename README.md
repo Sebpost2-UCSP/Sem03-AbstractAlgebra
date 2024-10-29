@@ -25,10 +25,10 @@ This repository is organized with individual `.cpp` files for each assignment an
 The final project implements a **complete RSA encryption system** with the following structure:
 - **Folder Structure**:
   - `Headers/`: Contains header files defining RSA and math-related functions.
-  - `RSAFunctions/`: Includes `RSA.cpp` for encryption and decryption functions and `Math.cpp` for supporting mathematical operations like modular exponentiation.
+  - `RSAFunctions/`: Includes `RSA.cpp` for encryption and decryption functions and `functions.cpp` for supporting mathematical operations like modular exponentiation.
   - `main.cpp`: Demonstrates the usage of RSA and math functions, showcasing the complete encryption and decryption workflow.
 - **Documentation**:
-  - `RSA_Project.pdf`: A comprehensive PDF document explaining the structure, theory, and functionality of the RSA implementation, along with sample outputs.
+  - `Informe RSA (final).pdf`: A comprehensive PDF document explaining the structure, theory, and functionality of the RSA implementation, along with sample outputs.
 
 ### Usage Instructions
 To run each assignment or the final RSA project:
